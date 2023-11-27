@@ -1,5 +1,7 @@
 use hippo_issac;
 
+TRUNCATE albums;
+
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES
     ('Michael Jackson', 'Thriller', 1982, 51.2, 'Pop, post-disco, funk, rock'),
